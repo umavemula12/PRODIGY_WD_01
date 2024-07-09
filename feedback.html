@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Personal Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="brand">MyApp</a>
+            <div class="nav-links">
+                <a href="login.html" class="nav-link">Login</a>
+                <a href="register.html" class="nav-link">Register</a>
+                <a href="feedback.html" class="nav-link">Feedback</a>
+            </div>
+        </div>
+    </nav>
+    <div id="content">
+        <h2>Feedback Form</h2>
+        <form>
+            <table border="5">
+                <tbody>
+                    <tr><th colspan="2">Feedback Form</th></tr>
+                    <tr>
+                        <td>Enter your Name:</td>
+                        <td>
+                            <input name="name" placeholder="Enter your name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Age:</td>
+                        <td>
+                            <input name="age" type="number" placeholder="Enter your age" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Roll Number:</td>
+                        <td>
+                            <input name="rollno" placeholder="Enter your roll number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Class:</td>
+                        <td>
+                            <input name="class" placeholder="Enter your class" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter your Feedback:</td>
+                        <td>
+                            <input name="feedback" placeholder="Enter your feedback" required>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
